@@ -203,7 +203,7 @@ nav {
 
 @media (max-width: 400px) {
     .women>span {
-        font-size: 3rem;
+        font-size: 3srem;
     }
 
     html,body {
