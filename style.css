@@ -59,7 +59,7 @@ nav {
 
 /* navigation */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .primary-nav-container {
         display: block;
         height: 100vh;
@@ -169,7 +169,7 @@ nav {
     }
 
     .col-1-content>.left {
-        width: auto;
+        width: unset;
     }
 
     .col-1-content>.right {
@@ -178,6 +178,10 @@ nav {
 
     .col-1-content .women {
         transform: rotate(0deg);
+        height: 100%;
+        margin-top: 0%;
+        display: flex;
+        align-items: center;
     }
 
     .women>span {
@@ -186,6 +190,27 @@ nav {
         opacity: .6;
     }
 }
+
+@media (max-width: 700px) {
+    .women>span {
+        font-size: 3.5rem;
+    }
+
+    html,body {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 400px) {
+    .women>span {
+        font-size: 3rem;
+    }
+
+    html,body {
+        font-size: 75%;
+    }
+}
+
 
 /* col 2 */
 
